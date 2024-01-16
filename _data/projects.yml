@@ -6,7 +6,7 @@
     - tag: Android
     - tag: SQLlite
 
-- name: project MLSC-DB
+- name: MLSC-DB
   descr: "During my senior year in college, while taking an RDMA Database course, I embarked on a project to design RDMA. Throughout the design process, we contacted and interviewed actual equipment manufacturing companies. We divided the project into Logical Data Models and Physical Data Models, ensuring that our design was practical and could be seamlessly implemented by the manufacturing companies. The project was completed with great success, yielding impressive results."
   demo: https://github.com/waterfogSW/MLSC-DB
   tags:
@@ -21,7 +21,7 @@
     - tag: Coding
     - tag: Algorithm
     
-- name: blog
+- name: Blog
   descr: "Organize and review what you have learned."
   demo: https://erosbryant.github.io/gxzhao.github.io/
   tags:
