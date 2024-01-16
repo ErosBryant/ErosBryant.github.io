@@ -15,9 +15,9 @@
       {{language.name}}
     </div>
   {% endfor %}
-  {% for db in site.data.skills-database %}
-    <div skill-type="db" skill-weight="{{db.weight}}" data-aos="zoom-in">
-      {{db.name}}
+  {% for database in site.data.skills-databases %}
+    <div skill-type="database" skill-weight="{{database.weight}}" data-aos="zoom-in">
+      {{database.name}}
     </div>
   {% endfor %}
   {% for tool in site.data.skills-tools %}
