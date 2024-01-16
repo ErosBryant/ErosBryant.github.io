@@ -9,7 +9,7 @@
   weight: 5
 
 - name: RocksDB
-  weight: 4
+  weight: 3
 
 - name: NoveLSM
   weight: 4
