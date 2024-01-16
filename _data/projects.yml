@@ -14,20 +14,30 @@
 #     - tag: Node
 
 - name: Beethoven Project
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+  descr: "I participated in a competition at my university when I was a junior in the Software Engineering department. I created a project that makes pianos easily accessible to families who don't have the opportunity to experience music, especially pianos, regularly. By connecting Arduino and smartphones, I developed a piano that anyone can easily access and play. Eventually, I won first place in the Software Engineering department and fifth place overall in the university competition. It was a very rewarding experience."
   demo: https://github.com/youngTalentHunters
   tags:
-    - tag: MongoDB
-    - tag: Express
-    - tag: AngularJS
-    - tag: Node
+    - tag: Dart
+    - tag: Android
+    - tag: SQLlite
 
-- name: project Y
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: project MLSC-DB
+  descr: "During my senior year in college, while taking an RDMA Database course, I embarked on a project to design RDMA. Throughout the design process, we contacted and interviewed actual equipment manufacturing companies. We divided the project into Logical Data Models and Physical Data Models, ensuring that our design was practical and could be seamlessly implemented by the manufacturing companies. The project was completed with great success, yielding impressive results."
+  demo: https://github.com/waterfogSW/MLSC-DB
+  tags:
+    - tag: RDMA
+    - tag: SQL
+
+- name: CodingGuysGroup
+  descr: "To learn and apply algorithms, I regularly formed study groups with friends where we conducted coding tests and consolidated our learning."
+  demo: https://github.com/CodingGuysGroup
   tags:
     - tag: Python
-    - tag: Django
-
-- name: project Z
-  descr: "You can also set a project without demo link and no tags"
+    - tag: Coding
+    - tag: Algorithm
+    
+- name: blog
+  descr: "Organize and review what you have learned."
+   demo: https://erosbryant.github.io/gxzhao.github.io/
+   tags:
+     - tag: Study
