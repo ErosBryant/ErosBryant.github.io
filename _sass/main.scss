@@ -395,7 +395,7 @@ a {
     color: #e84a5f;
   }
 
-  div[skill-type="Database"] {
+  div[skill-type="database"] {
     color: #ff847c;
   }
 
@@ -732,18 +732,18 @@ a {
       @include neumorphism-button-pressed();
     }
 
-    input[id="language"]:checked ~ div[skill-type="Database"],
+    input[id="language"]:checked ~ div[skill-type="database"],
     input[id="language"]:checked ~ div[skill-type="tool"] {
       @include filter-out;
     }
 
-    input[id="Database"]:checked ~ div[skill-type="language"],
-    input[id="Database"]:checked ~ div[skill-type="tool"] {
+    input[id="database"]:checked ~ div[skill-type="language"],
+    input[id="database"]:checked ~ div[skill-type="tool"] {
       @include filter-out;
     }
 
     input[id="tool"]:checked ~ div[skill-type="language"],
-    input[id="tool"]:checked ~ div[skill-type="Database"] {
+    input[id="tool"]:checked ~ div[skill-type="database"] {
       @include filter-out;
     }
   }
