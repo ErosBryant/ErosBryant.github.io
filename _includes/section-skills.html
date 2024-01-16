@@ -5,8 +5,8 @@
   <label class="filter-button neumorphism-button" for="all">All</label>
   <input type="radio" id="language" name="filter" />
   <label class="filter-button neumorphism-button" for="language">Languages</label>
-  <input type="radio" id="Databse" name="filter" />
-  <label class="filter-button neumorphism-button" for="Databse">Databse</label>
+  <input type="radio" id="database" name="filter" />
+  <label class="filter-button neumorphism-button" for="database">Databse</label>
   <input type="radio" id="tool" name="filter" />
   <label class="filter-button neumorphism-button" for="tool">Tools</label>
 
@@ -15,9 +15,9 @@
       {{language.name}}
     </div>
   {% endfor %}
-  {% for Database in site.data.skills-Database %}
-    <div skill-type="Database" skill-weight="{{Database.weight}}" data-aos="zoom-in">
-      {{Database.name}}
+  {% for database in site.data.skills-database %}
+    <div skill-type="database" skill-weight="{{database.weight}}" data-aos="zoom-in">
+      {{database.name}}
     </div>
   {% endfor %}
   {% for tool in site.data.skills-tools %}
